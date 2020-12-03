@@ -1,0 +1,332 @@
+/* 
+
+@media (min-width: 576px) { ... }
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... } 
+
+*/
+
+/* ------------------------------------ GENERAL ----------------------------------*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* ------------------------------------ NavBar ----------------------------------*/
+
+.menuBar li {
+	display: inline;
+	text-decoration: none;
+	padding: 18px 28px;
+	margin: 17px 0 10px 0;
+	float: left;
+	color: #948e8e;
+	font-family: "Lato", sans-serif;
+	font-size: 0.7em;
+}
+
+.menuBar {
+	margin: auto;
+	width: 80%;
+	height: 60px;
+}
+
+#logo {
+	position: relative;
+	float: left;
+}
+
+#navbarNav {
+	margin-left: 0;
+}
+
+nav {
+	width: 100%;
+}
+
+@media (min-width: 1200px) {
+	.nav-link {
+		padding: 10px 22px !important;
+		margin: 17px 0 10px 0 !important;
+		color: #948e8e;
+		font-family: "Lato", sans-serif;
+		font-size: 12px;
+	}
+
+	.nav-link:hover {
+		background-color: #ffbb42;
+		color: #ffffff;
+		cursor: pointer;
+	}
+
+	#navbarNav {
+		margin-left: 250px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.nav-link {
+		padding: 10px 22px;
+		margin: 17px 0 10px 0;
+		color: #948e8e;
+		font-family: "Lato", sans-serif;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	hr {
+		border: solid;
+		width: 90%;
+		border-color: black;
+		border-width: 0.3px;
+	}
+
+	.nav-link:hover {
+		background-color: white;
+		color: #709dca;
+	}
+}
+
+@media (max-width: 768px) {
+	.nav-link {
+		padding: 10px 5px;
+		margin: 0;
+		color: #948e8e;
+		font-family: "Lato", sans-serif;
+		font-size: 12px;
+		text-align: center;
+	}
+
+	hr {
+		border: solid;
+		width: 90%;
+		border-color: black;
+		border-width: 0.3px;
+	}
+
+	.nav-link:hover {
+		background-color: white;
+		color: #709dca;
+	}
+}
+
+/* ------------------------------------ PAGINA 2 ----------------------------------*/
+
+.row {
+	text-align: center;
+}
+
+#titlu {
+	text-align: center;
+	padding-top: 70px;
+	color: #ffffff;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+#titluMic {
+	text-align: center;
+	color: #ffffff;
+	margin: 0;
+	font-size: 14px;
+}
+
+@media (min-width: 768px) {
+	.input {
+		display: inline-block;
+		margin: 70px 0px;
+		padding: 7px 15px;
+		font-size: 12px;
+	}
+
+	#macbook {
+		width: 500px;
+		margin-top: -200px;
+	}
+
+	#introducere {
+		width: 100%;
+		height: 500px;
+		background-color: #709dca;
+	}
+}
+
+@media (max-width: 768px) {
+	.input {
+		display: block;
+		margin: 20px auto;
+		padding: 10px 60px;
+		font-size: 12px;
+	}
+
+	#input {
+		margin-top: 100px;
+	}
+
+	#macbook {
+		width: 300px;
+		margin-top: 10px;
+	}
+
+	#introducere {
+		width: 100%;
+		height: 600px;
+		background-color: #709dca;
+	}
+}
+
+#input {
+	text-align: center;
+}
+
+.btn {
+	background-color: #ffbb42;
+	color: #ffffff;
+}
+
+.btn-secondary {
+	border: none;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 50px;
+	color: #000000;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+p {
+	text-align: center;
+	margin: 0;
+}
+
+/* ------------------------------------ PAGINA 3 ----------------------------------*/
+
+#cards {
+	margin-top: 50px;
+}
+
+.card {
+	border: none !important;
+}
+
+.card-body {
+	text-align: left;
+}
+
+.card-text {
+	text-align: left;
+}
+
+.card-img {
+	width: 70px;
+	margin: 20px auto;
+}
+
+/* ------------------------------------ PAGINA 4 ----------------------------------*/
+
+.about {
+	margin: 0;
+	padding: 0;
+}
+
+#cardpg4 {
+	width: 90%;
+	color: white;
+	margin-top: 100px;
+}
+
+#btnpg4 {
+	margin-top: 20px;
+}
+
+#textpg4 {
+	background-color: #ffbb42;
+}
+
+/* ------------------------------------ PAGINA 5 ----------------------------------*/
+
+#pag5 {
+	height: 100%;
+	background-color: #e7edf3;
+	position: relative;
+}
+
+.titlepag5 {
+	background-color: #e7edf3;
+	padding: 80px;
+	text-align: center;
+}
+
+#cardpg5 {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	height: 100%;
+	padding-bottom: 200px;
+}
+
+.card {
+	padding: 20px;
+}
+
+@media (max-width: 768px) {
+	#cardpg5 {
+		width: 90%;
+	}
+
+	.list-group-flush {
+		width: 100% !important;
+	}
+}
+
+#middlecard {
+	background-color: #709dca;
+	color: white;
+}
+
+#middlecard ul li {
+	background-color: #709dca;
+	color: white;
+}
+
+.pag5card1:hover {
+	box-shadow: 0 20px 28px 0 rgba(0, 0, 0, 0.2),
+		0 20px 28px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body h1 {
+	color: #ffbb42;
+}
+
+.card-body a {
+	text-align: center !important;
+}
+
+.list-group-flush .list-group-item:last-child {
+	border-bottom-width: 0 !important;
+}
+
+.list-group-flush {
+	padding-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+	.pag5card1 {
+		margin: 20px 0 20px 0;
+	}
+
+	.list-group-flush {
+		width: 70%;
+		margin: 0 auto;
+	}
+}
