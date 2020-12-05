@@ -18,23 +18,23 @@
 //////////////////////////////////////////////////*/
 
 html {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	margin: 5px;
-	position: relative;
+  margin: 5px;
+  position: relative;
 }
 
 h1,
 h2,
 h3 {
-	margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 .typed-cursor {
-	display: none;
+  display: none;
 }
 
 /*///////////////////////////////////////////////////
@@ -42,109 +42,109 @@ h3 {
 //////////////////////////////////////////////////*/
 
 #first-page {
-	height: 100%;
-	background-color: #26afeb;
+  height: 100vh;
+  background-color: #26afeb;
 }
 
 .first-page {
-	padding-top: 10%;
-	padding-bottom: 5%;
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 #name {
-	padding-top: 13%;
-	color: white;
+  padding-top: 13%;
+  color: white;
 }
 
 #hello {
-	width: 90px;
-	padding: 10px !important;
+  width: 90px;
+  padding: 10px !important;
 }
 
 #myname {
-	font-family: "Special Elite", cursive;
+  font-family: "Special Elite", cursive;
 }
 
 #iam {
-	font-family: "Special Elite", cursive;
+  font-family: "Special Elite", cursive;
 }
 
 #pozaMea {
-	width: 80% !important;
+  width: 80% !important;
 }
 
 @media (min-width: 768px) {
-	#poza {
-		margin: 0 auto;
-	}
+  #poza {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 768px) {
-	.presentation {
-		padding-top: 0%;
-		margin: 0 auto;
-		padding-bottom: 20%;
-		text-align: center;
-	}
+  .presentation {
+    padding-top: 0%;
+    margin: 0 auto;
+    padding-bottom: 20%;
+    text-align: center;
+  }
 
-	.hello {
-		position: relative;
-	}
+  .hello {
+    position: relative;
+  }
 
-	#poza {
-		padding-top: 50px;
-	}
+  #poza {
+    padding-top: 50px;
+  }
 
-	#pozaMea {
-		width: 80%;
-		margin-left: 7%;
-	}
+  #pozaMea {
+    width: 80%;
+    margin-left: 7%;
+  }
 
-	#myname {
-		font-size: 30px;
-	}
+  #myname {
+    font-size: 30px;
+  }
 
-	#iam {
-		font-size: 15px;
-		text-align: left;
-		margin-left: 25px;
-	}
+  #iam {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 25px;
+  }
 }
 
 #hello {
-	padding: 30px;
+  padding: 30px;
 }
 
 #iam {
-	padding-left: 20px;
+  padding-left: 20px;
 }
 
 @media screen and (min-width: 576px) {
-	#pozaMea {
-		width: 70%;
-		margin-left: 17%;
-	}
+  #pozaMea {
+    width: 70%;
+    margin-left: 17%;
+  }
 }
 
 @media screen and (min-width: 768px) {
-	#pozaMea {
-		width: 50%;
-		margin-left: 20%;
-	}
+  #pozaMea {
+    width: 50%;
+    margin-left: 20%;
+  }
 }
 
 @media screen and (min-width: 992px) {
-	#pozaMea {
-		width: 60%;
-		margin-left: 10%;
-	}
+  #pozaMea {
+    width: 60%;
+    margin-left: 10%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-	#pozaMea {
-		width: 50%;
-		margin-left: 10%;
-	}
+  #pozaMea {
+    width: 50%;
+    margin-left: 10%;
+  }
 }
 
 /*///////////////////////////////////////////////////
@@ -152,86 +152,82 @@ h3 {
 //////////////////////////////////////////////////*/
 
 #myimg {
-	width: 15%;
-	margin-left: 5%;
-	border-radius: 50%;
+  width: 15%;
+  margin-left: 5%;
+  border-radius: 50%;
 }
 
 #navbar {
-	padding: 10px 10px;
+  padding: 10px 10px;
 }
 
 #logo {
-	position: relative;
-	float: left;
-	margin-left: 20px;
+  position: relative;
+  float: left;
+  margin-left: 20px;
 }
 
 #logoimg {
-	width: 50%;
-}
-
-navbar-light {
-	position: fixed;
+  width: 50%;
 }
 
 .navbar-nav li {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 .navbar-nav {
-	margin-right: 3%;
-	padding: 15px 0;
+  margin-right: 3%;
+  padding: 10px 0;
 }
 
 #navbarNav ul li a {
-	text-align: center;
+  text-align: center;
 }
 
 @media (max-width: 992px) {
-	.navbar-nav li {
-		margin-left: 0px;
-	}
+  .navbar-nav li {
+    margin-left: 0px;
+  }
 
-	.navbar-nav {
-		margin-right: 0;
-		padding: 15px 0;
-	}
+  .navbar-nav {
+    margin-right: 0;
+    padding: 15px 0;
+  }
 
-	#navbarNav {
-		padding: 0 20px;
-	}
+  #navbarNav {
+    padding: 0 20px;
+  }
 
-	#navbarNav ul li a {
-		text-align: center;
-		padding: 0;
-	}
+  #navbarNav ul li a {
+    text-align: center;
+    padding: 0;
+  }
 
-	#myimg {
-		width: 70px;
-		margin-left: 5%;
-		border-radius: 50%;
-	}
+  #myimg {
+    width: 70px;
+    margin-left: 5%;
+    border-radius: 50%;
+  }
 
-	#logoimg {
-		width: 35%;
-		margin-left: 5%;
-	}
+  #logoimg {
+    width: 35%;
+    margin-left: 5%;
+  }
 
-	#myimage {
-		width: 70%;
-	}
+  #myimage {
+    width: 70%;
+  }
 
-	#navlines {
-		width: 100%;
-		border-top: solid 0.5px lightgray !important;
-	}
+  #navlines {
+    width: 100%;
+    border-top: solid 0.5px lightgray !important;
+  }
 }
 
 @media (min-width: 992px) {
-	#navlines {
-		display: none;
-	}
+  #navlines {
+    display: none;
+  }
 }
 
 /*///////////////////////////////////////////////////
@@ -239,101 +235,101 @@ navbar-light {
 //////////////////////////////////////////////////*/
 
 #cards .row {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .divimage img {
-	height: 100px;
-	width: 100%;
+  height: 100px;
+  width: 100%;
 }
 
 .maincontainer {
-	position: absolute;
-	background: none;
-	height: 450px;
-	padding: 40px !important;
+  position: absolute;
+  background: none;
+  height: 450px;
+  padding: 40px !important;
 }
 
 .thecard {
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 10px;
-	transform-style: preserve-3d;
-	transition: all 0.8s ease;
-	display: inline-block;
-	box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+  display: inline-block;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
 }
 
 .thecard:hover {
-	transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .thefront {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 10px;
-	backface-visibility: hidden;
-	overflow: hidden;
-	background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background-color: white;
 }
 
 .theback {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 10px;
-	backface-visibility: hidden;
-	overflow: hidden;
-	background-color: white;
-	text-align: center;
-	transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+  transform: rotateY(180deg);
 }
 
 .thefront h1 {
-	font-family: "zilla slab", sans-serif;
-	padding-top: 10px;
-	font-weight: bold;
-	font-size: 24px;
-	text-align: center;
+  font-family: "zilla slab", sans-serif;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
 }
 
 .thefront p {
-	font-family: "zilla slab", sans-serif;
-	font-weight: normal;
-	padding-top: 5px;
-	font-size: 80%;
-	text-align: center;
+  font-family: "zilla slab", sans-serif;
+  font-weight: normal;
+  padding-top: 5px;
+  font-size: 80%;
+  text-align: center;
 }
 
 .theback .moto {
-	font-size: 90%;
-	padding-top: 10px;
-	color: lightgray;
+  font-size: 90%;
+  padding-top: 10px;
+  color: lightgray;
 }
 
 .theback p {
-	font-size: 80%;
-	padding-top: 5px;
+  font-size: 80%;
+  padding-top: 5px;
 }
 
 .theback .clickrotate {
-	font-size: 70%;
+  font-size: 70%;
 }
 
 .theback h5 {
-	padding: 20px;
+  padding: 20px;
 }
 
 .theback .cardlines {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 /*///////////////////////////////////////////////////
@@ -345,370 +341,361 @@ navbar-light {
 //////////////////////////////////////////////////*/
 
 .avatar {
-	width: 80px;
-	margin: 0 auto;
-	border-radius: 50%;
+  width: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 
 .exp {
-	width: 100%;
-	margin-top: -35px;
-	border-radius: 50%;
+  width: 100%;
+  margin-top: -35px;
+  border-radius: 50%;
 }
 
 .cardlines {
-	width: 90%;
-	border: 0.2px solid black;
-	margin-bottom: 5px;
+  width: 90%;
+  border: 0.2px solid black;
+  margin-bottom: 5px;
 }
 
 #click p {
-	text-align: center;
-	margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 #click {
-	position: absolute;
-	bottom: 10px;
+  position: absolute;
+  bottom: 10px;
 }
 
 #click .row {
-	margin: 0;
+  margin: 0;
 }
 
 .row i {
-	text-align: center;
+  text-align: center;
 }
 
 .row .clickrotate {
-	text-align: left !important;
+  text-align: left !important;
 }
 
 @media (max-width: 768px) {
-	.cardlines {
-		width: 90%;
-		border: solid 0.5px lightgray !important;
-		margin-bottom: 8px;
-	}
+  .cardlines {
+    width: 90%;
+    border: solid 0.5px lightgray !important;
+    margin-bottom: 8px;
+  }
 
-	.theback .moto {
-		font-size: 80%;
-		padding-top: 10px;
-		color: gray;
-	}
+  .theback .moto {
+    font-size: 80%;
+    padding-top: 10px;
+    color: gray;
+  }
 }
 
 /*///////////////////////////////////////////////////
-                      Pagina 2
+                      Pagina 2 Experience
 //////////////////////////////////////////////////*/
 
 #second-page {
-	height: 100%;
-	background-color: #edf5f8;
-	padding-bottom: 80px;
+  height: 100vh;
+  background-color: #edf5f8;
+  padding-bottom: 80px;
 }
 
 #creatcu {
-	font-family: "Indie Flower", cursive;
+  font-family: "Indie Flower", cursive;
 }
 
 #html {
-	font-family: "Pacifico", cursive;
+  font-family: "Pacifico", cursive;
 }
 
 #css {
-	font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 #javascript {
-	font-family: "Berkshire Swash", cursive;
+  font-family: "Berkshire Swash", cursive;
 }
 
 #bootstrap {
-	font-family: "Nanum Pen Script", cursive;
+  font-family: "Nanum Pen Script", cursive;
 }
 
 #jquery {
-	font-family: "Special Elite", cursive;
+  font-family: "Special Elite", cursive;
 }
 
 #contine {
-	list-style-type: none;
-	text-align: center;
-	padding: 20px;
+  list-style-type: none;
+  text-align: center;
+  padding: 20px;
 }
 
 #contine li {
-	display: inline;
-	margin-right: 7%;
-	color: #979797;
+  display: inline;
+  margin-right: 7%;
+  color: #979797;
 }
 
 h2 {
-	padding-top: 30px;
-	text-align: center;
-	font-family: "Cagliostro", sans-serif !important;
+  padding-top: 30px;
+  text-align: center;
+  font-family: "Cagliostro", sans-serif !important;
 }
 
 .pagelines {
-	width: 20px;
-	border-top: solid 3px #26afeb;
+  width: 20px;
+  border-top: solid 3px #26afeb;
 }
 
 /*///////////////////////////////////////////////////
-                      Pagina 3
+                      Pagina 3 Description
 //////////////////////////////////////////////////*/
 
 #third-page {
-	height: 100%;
-	background-color: white;
+  height: 100vh;
+  background-color: white;
 }
 
 .container1 {
-	padding: 40px 10%;
-	font-family: "Roboto", sans-serif;
-	font-size: 14px;
-	margin-bottom: 50px;
+  padding: 40px 10%;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin-bottom: 50px;
 }
 
 .container1 ul {
-	position: relative;
-	list-style: none;
-	padding: 0;
+  position: relative;
+  list-style: none;
+  padding: 0;
 }
 
 .container1 ul:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: #ddd;
-	width: 2px;
-	height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ddd;
+  width: 2px;
+  height: 100%;
 }
 
 .container1 ul li {
-	padding: 30px 30px;
-	position: relative;
+  padding: 30px 30px;
+  position: relative;
 }
 
 .container1 li a span {
-	position: absolute;
-	left: -13px;
-	font-size: 12px;
-	background-color: #fff;
-	padding: 10px 0;
-	top: 20px;
-	color: #aaa;
-	width: 33px;
-	font-weight: bold;
-	cursor: pointer;
+  position: absolute;
+  left: -13px;
+  font-size: 12px;
+  background-color: #fff;
+  padding: 10px 0;
+  top: 20px;
+  color: #aaa;
+  width: 33px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 h6 {
-	text-align: center;
-	font-family: "Cagliostro", sans-serif !important;
+  text-align: center;
+  font-family: "Cagliostro", sans-serif !important;
 }
 
 .container1 ul li div p {
-	text-align: center;
+  text-align: center;
 }
 
 /*///////////////////////////////////////////////////
-                      Pagina 4
+                      Pagina 4 Projects
 //////////////////////////////////////////////////*/
 
 #fourth-page {
-	background-color: #edf5f8;
-	height: 100%;
-	text-align: center;
+  background-color: #edf5f8;
+  height: 100vh;
 }
 
-
-
-/*
-
-#fourth-page .container {}
-
 .patrate {
-	background-color: white;
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-	padding: 0;
-	margin: 1%;
+  background-color: lightgray;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  padding: 0;
+  margin: 1%;
 }
 
 .patrate:hover {
-	background-color: white;
-	box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
-	display: inline-block;
-	padding: 0;
-	margin: 10px;
-	border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+  border-radius: 4px;
 }
 
 @media (max-width: 576px) {
-	.fourth-page {
-		background-color: #edf5f8;
-		height: 100%;
-		margin: auto;
-		position: relative;
-		text-align: center;
-	}
+  #fourth-page {
+    background-color: #edf5f8;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+  }
 
-	.patrate {
-		background-color: white;
-		width: 40%;
-		display: inline-block;
-		padding: 0;
-		margin: 10px;
-		border-radius: 4px;
-	}
-
+  .patrate {
+    background-color: lightgray;
+    width: 40%;
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    border-radius: 4px;
+  }
 }
 
 @media (min-width: 768px) {
-	.patrate {
-		background-color: white;
-		width: 200px;
-		height: 200px;
-		display: inline-block;
-		padding: 0;
-		margin: 2%;
-		border-radius: 4px;
-	}
+  .patrate {
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 0;
+    margin: 2%;
+    border-radius: 4px;
+  }
 }
 
 @media (min-width: 992px) {
-	.patrate {
-		background-color: white;
-		width: 200px;
-		height: 200px;
-		display: inline-block;
-		padding: 0;
-		margin: 1%;
-		border-radius: 4px;
-	}
+  .patrate {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 0;
+    margin: 1%;
+    border-radius: 4px;
+  }
 }
 
 @media (min-width: 768px) {
-	.patrate {
-		background-color: white;
-		width: 200px;
-		height: 200px;
-		display: inline-block;
-		padding: 0;
-		margin: 2%;
-		border-radius: 4px;
-	}
+  .patrate {
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 0;
+    margin: 2%;
+    border-radius: 4px;
+  }
 }
 
 @media (min-width: 992px) {
-	.patrate {
-		background-color: white;
-		width: 200px;
-		height: 200px;
-		display: inline-block;
-		padding: 0;
-		margin: 1%;
-		border-radius: 4px;
-	}
+  .patrate {
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 0;
+    margin: 1%;
+    border-radius: 4px;
+  }
 }
-
-*/
 
 /*///////////////////////////////////////////////////
-                      CONTACT
+                      Pagina 5 CONTACT
 //////////////////////////////////////////////////*/
 
 #fifth-page {
-	height: 100%;
-	background-color: #edf5f8;
+  height: 100vh;
+  background-color: #26afeb;
 }
 
 #world-map {
-	width: 100%;
+  width: 100%;
+  padding-top: 20%;
 }
 
 #map {
-	width: 100%;
-	padding-top: 40px;
+  width: 100%;
+  padding-top: 40px;
 }
 
 #created {
-	text-align: center;
-	padding-top: 45px;
-	font-family: "Cagliostro", sans-serif !important;
-	margin: 0;
+  text-align: center;
+  padding-top: 45px;
+  font-family: "Cagliostro", sans-serif !important;
+  margin: 0;
 }
 
 #social ul li {
-	list-style-type: none;
-	display: inline-block;
-	padding: 2%;
+  list-style-type: none;
+  display: inline-block;
+  padding: 2%;
 }
 
 @media (max-width: 576px) {
-	#map {
-		padding-top: 0;
-	}
+  #map {
+    padding-top: 0;
+  }
 
-	#fifth-page {
-		background-color: #57b2f8;
-	}
+  #fifth-page {
+    background-color: #57b2f8;
+  }
 
-	#created {
-		text-align: center;
-		font-family: "Cagliostro", sans-serif;
-		margin-bottom: -20px;
-		font-size: 0.7em;
-	}
+  #created {
+    text-align: center;
+    font-family: "Cagliostro", sans-serif;
+    margin-bottom: -20px;
+    font-size: 0.7em;
+  }
 
-	#social ul li a img {
-		width: 20px;
-	}
+  #social ul li a img {
+    width: 20px;
+  }
 
-	#social ul li {
-		padding: 1%;
-	}
+  #social ul li {
+    padding: 1%;
+  }
 
-	#social ul {
-		padding-left: 0;
-	}
+  #social ul {
+    padding-left: 0;
+  }
 }
 
 #social ul li a img {
-	width: 30px;
+  width: 30px;
 }
 
 @media (min-width: 768px) {
-	#created {
-		text-align: center;
-		font-family: "Cagliostro", sans-serif;
-		width: 100%;
-	}
+  #created {
+    text-align: center;
+    font-family: "Cagliostro", sans-serif;
+    width: 100%;
+  }
 
-	#created .row {
-		width: 100%;
-	}
+  #created .row {
+    width: 100%;
+  }
 
-	#social {
-		margin-bottom: 0;
-		float: right;
-	}
+  #social {
+    margin-bottom: 0;
+    float: right;
+  }
 
-	#social ul li a img {
-		width: 30px;
-	}
+  #social ul li a img {
+    width: 30px;
+  }
 
-	#social img {
-		padding: 0;
-	}
+  #social img {
+    padding: 0;
+  }
 
-	.created p {
-		margin-top: 10px !important;
-	}
+  .created p {
+    margin-top: 10px !important;
+  }
 }
 
 /*///////////////////////////////////////////////////
@@ -716,57 +703,57 @@ h6 {
 //////////////////////////////////////////////////*/
 
 @media screen and (max-width: 1024px) {
-	#mySidenav {
-		width: 100%;
-	}
+  #mySidenav {
+    width: 100%;
+  }
 
-	.sidenav a {
-		text-decoration: none;
-		font-size: 40px;
-		color: #111;
-		display: block;
-		transition: 0.5s;
-	}
+  .sidenav a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #111;
+    display: block;
+    transition: 0.5s;
+  }
 
-	.sidenav {
-		height: 100%;
-		width: 0;
-		position: fixed;
-		z-index: 1;
-		top: 0;
-		right: 0;
-		background-color: #26afeb;
-		overflow-x: hidden;
-		transition: 0.9s;
-		padding-top: 60px;
-	}
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #26afeb;
+    overflow-x: hidden;
+    transition: 0.9s;
+    padding-top: 60px;
+  }
 
-	.sidenav a:hover {
-		color: #f1f1f1;
-		*zoom: 1;
-	}
+  .sidenav a:hover {
+    color: #f1f1f1;
+    *zoom: 1;
+  }
 
-	.sidenav .closebtn {
-		position: absolute;
-		top: 33.5px;
-		right: 48px;
-		font-size: 36px;
-		margin-left: 50px;
-		padding: 0;
-		margin: 0;
-	}
+  .sidenav .closebtn {
+    position: absolute;
+    top: 33.5px;
+    right: 48px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 0;
+    margin: 0;
+  }
 
-	body {
-		font-family: "Lato", sans-serif;
-		height: 100%;
-	}
+  body {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+  }
 
-	#firstIMG {
-		display: none;
-	}
+  #firstIMG {
+    display: none;
+  }
 
-	#fifth-page .container {
-		padding-bottom: 25px;
-		padding-top: 25px;
-	}
+  #fifth-page .container {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
 }
